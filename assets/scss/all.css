@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  *, *::before, *::after {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    letter-spacing: 0.05em;
+  }
+}
+
+@layer components {
+  .link {
+    @apply text-neutral-900 py-3 inline-block cursor-pointer;
+    @apply hover:text-neutral-600;
+    @apply focus:border-b-2 border-neutral-900;
+  }
+  .link[aria-disabled] {
+    @apply opacity-40 pointer-events-none;
+  }
+  .btn {
+    @apply font-medium px-6 py-3 h-12 rounded-radius-sm;
+    @apply hover:text-neutral-600;
+    @apply disabled:opacity-40 disabled:pointer-events-none;
+  }
+  .btn-icon {
+    @apply font-medium px-6 py-3 flex items-center gap-2 rounded-radius-sm;
+  }
+  .btn-outlined {
+    @apply bg-neutral-0 text-neutral-900 outline outline-neutral-900;
+    @apply hover:text-neutral-0 hover:bg-neutral-900;
+    @apply focus:text-neutral-0 focus:bg-neutral-900 focus:shadow-[0_0_0_3px_rgba(33,37,41,0.1)];
+  }
+  .btn-filled {
+    @apply bg-neutral-900 text-neutral-0;
+    @apply hover:text-neutral-0 hover:bg-neutral-700;
+    @apply focus:text-neutral-0 focus:bg-neutral-700 focus:shadow-[0_0_0_3px_rgba(33,37,41,0.1)];
+  }
+  .btn-primary {
+    @apply bg-primary-300 text-neutral-900;
+    @apply hover:text-primary-500;
+    @apply focus:shadow-[0_0_0_3px_rgba(192,250,115,0.4)];
+  }
+  .btn-sm {
+    @apply py-2 px-4 h-10;
+  }
+}
+/*# sourceMappingURL=all.css.map */
