@@ -62,13 +62,10 @@ module.exports = {
                     300: '#3087DB',
                     },
             },
-            fontFamily: {
-                sans: ['"Noto Sans TC"',
-                    'sans-serif'],
-            letterSpacing: {
-                tightest: '0.05em',
-                },
-            },
+            // fontFamily: {
+            //     sans: ['"Noto Sans TC"',
+            //         'sans-serif'],
+            // },
             borderRadius: {
                 'radius-xs': '2px',
                 'radius-sm': '4px',
