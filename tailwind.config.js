@@ -1,4 +1,5 @@
 const { info } = require('sass');
+const { darkMode } = require('./tailwind.config');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -9,6 +10,7 @@ module.exports = {
         './layout/**/*.ejs',
         './assets/**/*.{html,js,scss}',
     ],
+    // darkMode: 'media', // 啟動前綴 dark模式
     theme: {
         container: {
             center: true, // 置中
@@ -62,10 +64,6 @@ module.exports = {
                     300: '#3087DB',
                     },
             },
-            // fontFamily: {
-            //     sans: ['"Noto Sans TC"',
-            //         'sans-serif'],
-            // },
             borderRadius: {
                 'radius-xs': '2px',
                 'radius-sm': '4px',
@@ -89,6 +87,19 @@ module.exports = {
                 'p-md': ['16px', { lineHeight: '150%',fontWeight: '400', letterSpacing: '0.05em' }],
                 'p-sm': ['14px', { lineHeight: '150%',fontWeight: '400', letterSpacing: '0.05em' }],
                 'p-xs': ['12px', { lineHeight: '150%',fontWeight: '400', letterSpacing: '0.05em' }],
+            },
+            spacing: {
+                'spacing-xxs': '4px',
+                'spacing-xs': '8px',
+                'spacing-s': '12px',
+                'spacing-m': '16px',
+                'spacing-l': '24px',
+                'spacing-xl': '32px',
+                'spacing-2xl': '40px',
+                'spacing-3xl': '48px',
+                'spacing-4xl': '56px',
+                'spacing-5xl': '64px',
+                'spacing-6xl': '80px',
             },
         },
     },

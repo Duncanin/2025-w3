@@ -18,6 +18,25 @@
 }
 
 @layer components {
+
+    .text-primary {
+        @apply text-neutral-900;
+    }
+    .text-secondary {
+        @apply text-neutral-600;
+    }
+    .text-muted {
+        @apply text-neutral-500;
+    }
+    .text-highlight {
+        @apply text-primary-400;
+    }
+    .text-on-dark {
+        @apply text-neutral-0 bg-neutral-950;
+    }
+
+
+
     .link {
         @apply text-neutral-900 py-3 inline-block;
         @apply hover:text-neutral-600;
