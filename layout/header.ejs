@@ -1,21 +1,25 @@
 <header class="">
     <div class="container">
-        <nav class="flex items-center py-4">
+        <nav class="flex items-center relative md:py-4">
             <h1 class="float-left">
                 <a class="bg-[url('/assets/images/logo.svg')] w-[129px] h-[46px] indent-[101%] overflow-hidden whitespace-nowrap block" href="#">URBNSTEP</a>
             </h1>
-            <ol class="ml-6 flex gap-10">
+            <ul class="absolute left-0 top-full flex
+                        md:ml-12 md:gap-10 md:static"
+                        >
                 <li>
-                    <a class="link" href="#">
+                    <a class="bg-primary-200 py-3 text-center block w-[50vw]
+                                md:bg-neutral-0 md:w-fit" href="#">
                         商品列表
                     </a>
                 </li>
                 <li>
-                    <a class="link" href="#">
+                    <a class="bg-primary-100 py-3 text-center block w-[50vw]
+                                md:bg-neutral-0 md:w-fit" href="#">
                         品牌故事
                     </a>
                 </li>
-            </ol>
+            </ul>
             
             <button class="ml-auto">
                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">

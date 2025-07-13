@@ -9,17 +9,20 @@ module.exports = {
         './pages/**/*.html',
         './layout/**/*.ejs',
         './assets/**/*.{html,js,scss}',
+        // 這裡是 tw-elements 的路徑
+        './node_modules/tw-elements/dist/js/**/*.js',
     ],
     // darkMode: 'media', // 啟動前綴 dark模式
     theme: {
+        // mobile first
         container: {
             center: true, // 置中
             screens: {
-                sm: '375px',
-                md: '768px',
-                lg: '992px',
-                xl: '1140px',
-              '2xl': '1296px' // 最大寬度
+                // sm: '375px',
+                // md: '768px',
+                // lg: '992px',
+                // xl: '1140px',
+              '2xl': '1296px', // 最大寬度
             }
         },
         extend: {
@@ -103,5 +106,6 @@ module.exports = {
             },
         },
     },
-    plugins: [],
+    plugins: [require("tw-elements/plugin.cjs")],
+    darkMode : "class"
 };

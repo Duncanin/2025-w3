@@ -23,6 +23,7 @@
     "gh-pages": "^5.0.0",
     "glob": "^10.2.2",
     "sass-loader": "^13.2.2",
+    "tw-elements": "^2.0.0",
     "vite-plugin-live-reload": "^3.0.2"
   },
   "description": "## Node.js 版本   - 專案的 Node.js 版本需為 v18 以上   - 查看自己版本指令：`node -v`",
