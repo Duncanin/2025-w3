@@ -1,39 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>index</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="/2025-w3/assets/main-CAA-inJg.js"></script>
-    <link rel="stylesheet" crossorigin href="/2025-w3/assets/main-CrTMaxZo.css">
-  </head>
-  <body>
-    <header class="">
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/2025-w3/assets/main-C1LKdZfi.js"></script>
+  <link rel="stylesheet" crossorigin href="/2025-w3/assets/main-CHHJLB_C.css">
+</head>
+<body>
+  <header class="">
     <div class="container">
-        <nav class="flex items-center relative md:py-4">
-            <h1 class="float-left">
+        <nav class="flex items-center relative py-3 md:py-4"
+                onclick="document.getElementById('mobileMenu').classList.toggle('hidden')"
+                >
+            <h1 class="flex">
                 <a class="bg-[url('/assets/images/logo.svg')] w-[129px] h-[46px] indent-[101%] overflow-hidden whitespace-nowrap block" href="#">URBNSTEP</a>
             </h1>
-            <ul class="absolute left-0 top-full flex
-                        md:ml-12 md:gap-10 md:static"
-                        >
-                <li>
-                    <a class="bg-primary-200 py-3 text-center block w-[50vw]
-                                md:bg-neutral-0 md:w-fit" href="#">
-                        商品列表
-                    </a>
-                </li>
-                <li>
-                    <a class="bg-primary-100 py-3 text-center block w-[50vw]
-                                md:bg-neutral-0 md:w-fit" href="../pages/story.html">
-                        品牌故事
-                    </a>
-                </li>
-            </ul>
+            <div id="mobileMenu" class="hidden md:block">
+                <ul class="absolute left-0 top-full flex
+                            md:ml-12 md:gap-10 md:static"
+                            >
+                    <li>
+                        <a class="bg-primary-200 py-3 text-center block w-[50vw]
+                                    md:bg-neutral-0 md:w-fit" href="../pages/product-list.html">
+                            商品列表
+                        </a>
+                    </li>
+                    <li>
+                        <a class="bg-primary-100 py-3 text-center block w-[50vw]
+                                    md:bg-neutral-0 md:w-fit" href="../pages/story.html">
+                            品牌故事
+                        </a>
+                    </li>
+                </ul>
+            </div>
             
             <button class="ml-auto">
                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -43,138 +46,12 @@
         </nav>
     </div>
 </header>
-    <Section class="product-list">
-      <div class="container">
-
-        <nav class="text-neutral-600 mt-8" aria-label="Breadcrumb">
-          <ol class="flex space-x-3">
-            <li><a href="#" class="link text-neutral-600 inline">首頁</a></li>
-            <li class="text-neutral-300">/</li>
-            <li class="text-neutral-900">所有商品</li>
-          </ol>
-        </nav>
-        
-        <!-- bootstrap breadcrumb -->
-        <nav aria-label="breadcrumb" hidden>
-          <ol class="breadcrumb flex space-x-3 items-center">
-            <li class="breadcrumb-item link text-neutral-600"><a href="#">首頁</a></li>
-            <li class="text-neutral-300">/</li>
-            <li class="breadcrumb-item active" aria-current="page">所有商品</li>
-          </ol>
-        </nav>
-        <h3 class="text-h3 py-[7.2px] my-6">所有商品</h3>
-
-      </div>
 
 
-      <div class="container">
-
-        <div class="grid grid-cols-12 gap-6">
 
 
-          <nav class="col-span-2">
-            <ul class="">
-              <li><a href="#" class="link text-primary-400">所有商品</a></li>
-              <li><a href="#" class="link">慢跑鞋</a></li>
-              <li><a href="#" class="link">滑板鞋</a></li>
-              <li><a href="#" class="link">厚底鞋</a></li>
-              <li><a href="#" class="link">限定 / 聯名企劃</a></li>
-            </ul>
-          </nav>
 
-          <div class="col-span-10">
-            <ul class="grid grid-cols-3 gap-x-6 gap-y-6 pb-12">
-              <li class="col-span-1">
-                <a class="card-link" href="./product-detail.html">
-                  <div class="img"><img src="/2025-w3/assets/product-ByIiOSCa.png" alt="product"></div>
-                  <h3 class="text-h6">PLATFORM 404</h3>
-                  <div class="text-l-md">$2,600</div>
-                </a>
-              </li>
-              <li class="col-span-1">
-                <a class="card-link" href="#">
-                  <div class="img"><img src="/2025-w3/assets/product-1-BSd-Oeai.png" alt="product"></div>
-                  <h3 class="text-h6">PLATFORM 404</h3>
-                  <div class="text-l-md">$2,600</div>
-                </a>
-              </li>
-              <li class="col-span-1">
-                <a class="card-link" href="#">
-                  <div class="img"><img src="/2025-w3/assets/product-2-B3VzoAng.png" alt="product"></div>
-                  <h3 class="text-h6">VM001</h3>
-                  <div class="text-l-md">$2,600</div>
-                </a>
-              </li>
-              <li class="col-span-1">
-                <a class="card-link opacity-85" href="#">
-                  <div class="img"><img src="/2025-w3/assets/product-3-AxvEbKOW.png" alt="product"></div>
-                  <h3 class="text-h6">Melty Kiss</h3>
-                  <div class="text-l-md">$4,000</div>
-                </a>
-              </li>
-              <li class="col-span-1">
-                <a class="card-link" href="#">
-                  <div class="img"><img src="/2025-w3/assets/product-4-CqyUCYzf.png" alt="product"></div>
-                  <h3 class="text-h6">BOOMBLOK</h3>
-                  <div class="text-l-md">$3,200</div>
-                </a>
-              </li>
-              <li class="col-span-1">
-                <a class="card-link" href="#">
-                  <div class="img"><img src="/2025-w3/assets/product-5-Crvwip2z.png" alt="product"></div>
-                  <h3 class="text-h6">BOOMBLOK</h3>
-                  <div class="text-l-md">$3,200</div>
-                </a>
-              </li>
-              <li class="col-span-1">
-                <a class="card-link" href="#">
-                  <div class="img"><img src="/2025-w3/assets/product-6-D5PaxBWx.png" alt="product"></div>
-                  <h3 class="text-h6">R:UNER</h3>
-                  <div class="text-l-md">$4,000</div>
-                </a>
-              </li>
-              <li class="col-span-1">
-                <a class="card-link" href="#">
-                  <div class="img"><img src="/2025-w3/assets/product-7-DJXgZGzn.png" alt="product"></div>
-                  <h3 class="text-h6">SUGAR SNAP</h3>
-                  <div class="text-l-md">$4,000</div>
-                </a>
-              </li>
-              <li class="col-span-1">
-                <a class="card-link" href="#">
-                  <div class="img"><img src="/2025-w3/assets/product-8-JQPwydt4.png" alt="product"></div>
-                  <h3 class="text-h6">Neofoam</h3>
-                  <div class="text-l-md">$4,000</div>
-                </a>
-              </li>
-              <li class="col-span-1" hidden>
-                <a class="card-link" href="#">
-                  <div class="img"><img src="/2025-w3/assets/product-9-DL5QGtW6.png" alt="product"></div>
-                  <h3 class="text-h6">PLATFORM 404</h3>
-                  <div class="text-l-md">$4,000</div>
-                </a>
-              </li>
-            </ul>
-
-            <ul class="col-span-10 mx-auto flex justify-center space-x-2 [&>*:first-child]:me-1 [&>*:last-child]:ms-1">
-              <li><a href="#" class="iconbtn-40"><i class="bi bi-chevron-left"></i></a></li>
-              <li><a href="#" class="iconbtn-40 bg-primary-300">1</a></li>
-              <li><a href="#" class="iconbtn-40">2</a></li>
-              <li><a href="#" class="iconbtn-40">3</a></li>
-              <li><a href="#" class="iconbtn-40">...</a></li>
-              <li><a href="#" class="iconbtn-40">10</a></li>
-              <li><a href="#" class="iconbtn-40"><i class="bi bi-chevron-right"></i></a></li>
-            </ul>
-          </div>
-
-
-        </div>
-      </div>
-    </Section>
-
-    
-
-    <div class="bg-primary-200">
+  <div class="bg-primary-200">
     <div class="container">
         <div class="py-6 flex items-center justify-center gap-4 md:gap-6">
             <p class="text-h5 md:text-h4">加入會員取得 9 折優惠</p>
@@ -183,7 +60,7 @@
             </button>
         </div>
     </div>
-</div>    <footer class="bg-neutral-100">
+</div>  <footer class="bg-neutral-100">
     <div class="container">
         <nav class="flex flex-col pt-8 px-3 pb-6 gap-2
                     md:flex-row md:pt-16 md:pb-6 md:px-0">
@@ -213,6 +90,6 @@
         </div>
     </div>
 </footer>
-
-  </body>
+  <script type="text/javascript" src="../node_modules/tw-elements/js/tw-elements.umd.min.js"></script>
+</body>
 </html>

@@ -4,36 +4,40 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>index</title>
+        <title>product-setail</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-      <script type="module" crossorigin src="/2025-w3/assets/main-CAA-inJg.js"></script>
-      <link rel="stylesheet" crossorigin href="/2025-w3/assets/main-CrTMaxZo.css">
+      <script type="module" crossorigin src="/2025-w3/assets/main-C1LKdZfi.js"></script>
+      <link rel="stylesheet" crossorigin href="/2025-w3/assets/main-CHHJLB_C.css">
     </head>
     <body>
         <header class="">
     <div class="container">
-        <nav class="flex items-center relative md:py-4">
-            <h1 class="float-left">
+        <nav class="flex items-center relative py-3 md:py-4"
+                onclick="document.getElementById('mobileMenu').classList.toggle('hidden')"
+                >
+            <h1 class="flex">
                 <a class="bg-[url('/assets/images/logo.svg')] w-[129px] h-[46px] indent-[101%] overflow-hidden whitespace-nowrap block" href="#">URBNSTEP</a>
             </h1>
-            <ul class="absolute left-0 top-full flex
-                        md:ml-12 md:gap-10 md:static"
-                        >
-                <li>
-                    <a class="bg-primary-200 py-3 text-center block w-[50vw]
-                                md:bg-neutral-0 md:w-fit" href="#">
-                        商品列表
-                    </a>
-                </li>
-                <li>
-                    <a class="bg-primary-100 py-3 text-center block w-[50vw]
-                                md:bg-neutral-0 md:w-fit" href="../pages/story.html">
-                        品牌故事
-                    </a>
-                </li>
-            </ul>
+            <div id="mobileMenu" class="hidden md:block">
+                <ul class="absolute left-0 top-full flex
+                            md:ml-12 md:gap-10 md:static"
+                            >
+                    <li>
+                        <a class="bg-primary-200 py-3 text-center block w-[50vw]
+                                    md:bg-neutral-0 md:w-fit" href="../pages/product-list.html">
+                            商品列表
+                        </a>
+                    </li>
+                    <li>
+                        <a class="bg-primary-100 py-3 text-center block w-[50vw]
+                                    md:bg-neutral-0 md:w-fit" href="../pages/story.html">
+                            品牌故事
+                        </a>
+                    </li>
+                </ul>
+            </div>
             
             <button class="ml-auto">
                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
