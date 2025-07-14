@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>product-list</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <Section class="product-list">
+      <div class="container">
+
+        <nav class="text-neutral-600 px-3 md:px-0 mt-4 md:mt-8" aria-label="Breadcrumb">
+          <ol class="flex space-x-3">
+            <li><a href="#" class="link text-neutral-600 inline">首頁</a></li>
+            <li class="text-neutral-300">/</li>
+            <li><a href="#" class="link text-neutral-600 inline">女鞋</a></li>
+            <li class="text-neutral-300">/</li>
+            <li class="text-neutral-900">所有商品</li>
+          </ol>
+        </nav>
+        
+        <h3 class="text-h4 py-[9.6px] my-3 px-3 md:px-0 md:text-h3 md:py-[7.2px] md:my-6">女鞋</h3>
+
+      </div>
+
+
+      <div class="container">
+
+        <div class="grid grid-cols-12 md:gap-6">
+
+
+          <nav class="col-span-2">
+            <ul class="hidden md:contents">
+              <li><a href="#" class="link text-primary-400">所有商品</a></li>
+              <li><a href="#" class="link">慢跑鞋</a></li>
+              <li><a href="#" class="link">滑板鞋</a></li>
+              <li><a href="#" class="link">厚底鞋</a></li>
+              <li><a href="#" class="link">限定 / 聯名企劃</a></li>
+            </ul>
+          </nav>
+
+          <div class="col-span-12 pb-10 md:pb-20 md:col-span-10">
+            <ul class="grid grid-cols-2 gap-x-3 px-3 gap-y-6 pb-8 md:px-0 md:grid-cols-3 md:gap-x-6 md:gap-y-12 md:pb-12">
+              <li class="col-span-1">
+                <a class="card-link" href="./product-detail.html">
+                  <div class="img"><img src="../assets/images/2025-week2/product.png" alt="product"></div>
+                  <h3 class="text-h6">PLATFORM 404</h3>
+                  <div class="text-l-md">$2,600</div>
+                </a>
+              </li>
+              <li class="col-span-1">
+                <a class="card-link" href="#">
+                  <div class="img"><img src="../assets/images/2025-week2/product-1.png" alt="product"></div>
+                  <h3 class="text-h6">PLATFORM 404</h3>
+                  <div class="text-l-md">$2,600</div>
+                </a>
+              </li>
+              <li class="col-span-1">
+                <a class="card-link" href="#">
+                  <div class="img"><img src="../assets/images/2025-week2/product-2.png" alt="product"></div>
+                  <h3 class="text-h6">VM001</h3>
+                  <div class="text-l-md">$2,600</div>
+                </a>
+              </li>
+              <li class="col-span-1">
+                <a class="card-link opacity-85" href="#">
+                  <div class="img"><img src="../assets/images/2025-week2/product-3.png" alt="product"></div>
+                  <h3 class="text-h6">Melty Kiss</h3>
+                  <div class="text-l-md">$4,000</div>
+                </a>
+              </li>
+              <li class="col-span-1">
+                <a class="card-link" href="#">
+                  <div class="img"><img src="../assets/images/2025-week2/product-4.png" alt="product"></div>
+                  <h3 class="text-h6">BOOMBLOK</h3>
+                  <div class="text-l-md">$3,200</div>
+                </a>
+              </li>
+              <li class="col-span-1">
+                <a class="card-link" href="#">
+                  <div class="img"><img src="../assets/images/2025-week2/product-5.png" alt="product"></div>
+                  <h3 class="text-h6">BOOMBLOK</h3>
+                  <div class="text-l-md">$3,200</div>
+                </a>
+              </li>
+              <li class="col-span-1">
+                <a class="card-link" href="#">
+                  <div class="img"><img src="../assets/images/2025-week2/product-6.png" alt="product"></div>
+                  <h3 class="text-h6">R:UNER</h3>
+                  <div class="text-l-md">$4,000</div>
+                </a>
+              </li>
+              <li class="col-span-1">
+                <a class="card-link" href="#">
+                  <div class="img"><img src="../assets/images/2025-week2/product-7.png" alt="product"></div>
+                  <h3 class="text-h6">SUGAR SNAP</h3>
+                  <div class="text-l-md">$4,000</div>
+                </a>
+              </li>
+              <li class="col-span-1">
+                <a class="card-link" href="#">
+                  <div class="img"><img src="../assets/images/2025-week2/product-8.png" alt="product"></div>
+                  <h3 class="text-h6">Neofoam</h3>
+                  <div class="text-l-md">$4,000</div>
+                </a>
+              </li>
+              <li class="col-span-1 md:hidden">
+                <a class="card-link" href="#">
+                  <div class="img"><img src="../assets/images/2025-week2/product-9.png" alt="product"></div>
+                  <h3 class="text-h6">PLATFORM 404</h3>
+                  <div class="text-l-md">$4,000</div>
+                </a>
+              </li>
+            </ul>
+
+            <ul class="col-span-10 mx-auto flex justify-center space-x-2 [&>*:first-child]:me-1 [&>*:last-child]:ms-1">
+              <li><a href="#" class="iconbtn-40"><i class="bi bi-chevron-left"></i></a></li>
+              <li><a href="#" class="iconbtn-40 bg-primary-300">1</a></li>
+              <li><a href="#" class="iconbtn-40">2</a></li>
+              <li><a href="#" class="iconbtn-40">3</a></li>
+              <li><a href="#" class="iconbtn-40">...</a></li>
+              <li><a href="#" class="iconbtn-40">10</a></li>
+              <li><a href="#" class="iconbtn-40"><i class="bi bi-chevron-right"></i></a></li>
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
+    </Section>
+
+    
+
+    <%- include('./layout/bannerSection'); -%>
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+
+  </body>
+</html>

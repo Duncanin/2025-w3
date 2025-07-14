@@ -56,10 +56,10 @@
 
     .card-link {
         .img{
-            @apply mb-3;
+            @apply mb-2 md:mb-3;
         }
         .text-h6 {
-            @apply mb-1;
+            @apply md:mb-1;
         }
     }
     .card-link:hover .img{
