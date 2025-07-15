@@ -14,15 +14,19 @@ module.exports = {
     ],
     // darkMode: 'media', // 啟動前綴 dark模式
     theme: {
+        screens: {
+            md: '792px',
+        },
         // mobile first
         container: {
             center: true, // 置中
+            padding: '12px',
             screens: {
                 // sm: '375px',
                 // md: '768px',
                 // lg: '992px',
                 // xl: '1140px',
-              '2xl': '1296px', // 最大寬度
+              '2xl': '1320px', // 最大寬度
             }
         },
         extend: {

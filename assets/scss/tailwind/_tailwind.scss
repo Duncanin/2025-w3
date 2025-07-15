@@ -58,6 +58,9 @@
         .img{
             @apply mb-2 md:mb-3;
         }
+        img {
+            @apply w-full h-auto block;
+        }
         .text-h6 {
             @apply md:mb-1;
         }
@@ -156,5 +159,4 @@
     .group-opt-img:focus-within span {
         @apply text-neutral-900;
     }
-
 }
