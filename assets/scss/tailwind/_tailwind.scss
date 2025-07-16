@@ -59,7 +59,7 @@
             @apply mb-2 md:mb-3;
         }
         img {
-            @apply w-full h-auto block;
+            @apply w-full h-auto block object-cover;
         }
         .text-h6 {
             @apply md:mb-1;
