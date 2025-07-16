@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/2025-w3/assets/main-BHuo-Wse.js"></script>
+  <link rel="stylesheet" crossorigin href="/2025-w3/assets/main-B5w_iUFG.css">
+</head>
+<body>
+    <header class="">
+    <div class="container">
+        <nav class="flex items-center relative py-3 md:py-4"
+                onclick="document.getElementById('mobileMenu').classList.toggle('hidden')"
+                >
+            <h1 class="flex">
+                <a class="bg-[url('/assets/images/logo.svg')] w-[129px] h-[46px] indent-[101%] overflow-hidden whitespace-nowrap block" href="./index.html">URBNSTEP</a>
+            </h1>
+            <div id="mobileMenu" class="hidden md:block">
+                <ul class="absolute -left-3 top-full flex
+                            md:ml-12 md:gap-10 md:static"
+                            >
+                    <li>
+                        <a class="bg-primary-200 py-3 text-center block w-[50vw]
+                                    md:bg-neutral-0 md:w-fit" href="./product-list.html">
+                            商品列表
+                        </a>
+                    </li>
+                    <li>
+                        <a class="bg-primary-100 py-3 text-center block w-[50vw]
+                                    md:bg-neutral-0 md:w-fit" href="./story.html">
+                            品牌故事
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <button class="ml-auto">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24 24C25.1935 24 26.3381 23.5259 27.182 22.682C28.0259 21.8381 28.5 20.6935 28.5 19.5C28.5 18.3065 28.0259 17.1619 27.182 16.318C26.3381 15.4741 25.1935 15 24 15C22.8065 15 21.6619 15.4741 20.818 16.318C19.9741 17.1619 19.5 18.3065 19.5 19.5C19.5 20.6935 19.9741 21.8381 20.818 22.682C21.6619 23.5259 22.8065 24 24 24ZM27 19.5C27 20.2956 26.6839 21.0587 26.1213 21.6213C25.5587 22.1839 24.7956 22.5 24 22.5C23.2044 22.5 22.4413 22.1839 21.8787 21.6213C21.3161 21.0587 21 20.2956 21 19.5C21 18.7044 21.3161 17.9413 21.8787 17.3787C22.4413 16.8161 23.2044 16.5 24 16.5C24.7956 16.5 25.5587 16.8161 26.1213 17.3787C26.6839 17.9413 27 18.7044 27 19.5ZM33 31.5C33 33 31.5 33 31.5 33H16.5C16.5 33 15 33 15 31.5C15 30 16.5 25.5 24 25.5C31.5 25.5 33 30 33 31.5ZM31.5 31.494C31.4985 31.125 31.269 30.015 30.252 28.998C29.274 28.02 27.4335 27 24 27C20.565 27 18.726 28.02 17.748 28.998C16.731 30.015 16.503 31.125 16.5 31.494H31.5Z" fill="currentColor"/>
+                    </svg>
+            </button>
+        </nav>
+    </div>
+</header>
+    <section class="">
+        <div class="container">
+            <div class="md:grid md:grid-cols-12 md:gap-6 py-0 md:py-16">
+                <section class="bg-[url('/assets/images/index/HeroSection-sm.png')] bg-no-repeat h-60 bg-cover bg-[left_50%_top_46.3%] col-span-5 md:rounded-md md:h-full">
+
+                    <div class="p-6 md:p-10">
+                        <h1 class="text-h2 font-['Montserrat'] text-neutral-0 md:text-d2 pd:font-['Noto_Sans_TC'] md:pt-[31px]">URBNSTEP</h1>
+                        <h3 class="text-h6 font-['Montserrat'] text-neutral-500 pt-[9px] md:text-h4 md:pt-[15px] md:text-right">Your Step, Your Statement</h3>
+
+                    </div>
+            
+                    
+                </section>
+    
+    
+                <section class="md:col-span-7">
+                    <div class="px-3 py-8 md:bg-neutral-100 rounded-radius-md md:px-20 md:py-[120px]">
+    
+                        <h4 class="text-h4 font-['Montserrat'] text-center mb-6 md:mb-8 md:font-['Noto_Sans_TC'] md:text-h3">歡迎！</h4>
+    
+                        <!--Tabs navigation refer form twe-->
+                        <ul class="flex flex-row" role="tablist" data-twe-nav-ref>
+                            <li role="presentation" class=" w-full">
+                                <a href="#tabs-login" class="text-h6 font-['Montserrat'] text-center block border-b-2 border-t-0 border-x-0 border-neutral-300 py-3 text-neutral-600 hover:isolate hover:border-transparent focus:isolate focus:border-transparent data-[twe-nav-active]:border-neutral-900 data-[twe-nav-active]:text-neutral-900 dark:text-white/50 dark:data-[twe-nav-active]:text-neutral-900" data-twe-toggle="pill" data-twe-target="#tabs-login" data-twe-nav-active role="tab" aria-controls="tabs-login"
+                                aria-selected="true" >登入</a>
+                            </li>
+                            <li role="presentation" class=" w-full">
+                                <a
+                                href="#tabs-register"
+                                class="text-h6 font-['Montserrat'] text-center block border-b-2 border-t-0 border-x-0 border-neutral-300 py-3 text-neutral-600 hover:isolate hover:border-transparent focus:isolate focus:border-transparent data-[twe-nav-active]:border-neutral-900 data-[twe-nav-active]:text-neutral-900 dark:text-white/50 dark:data-[twe-nav-active]:text-neutral-900"
+                                data-twe-toggle="pill"
+                                data-twe-target="#tabs-register"
+                                role="tab"
+                                aria-controls="tabs-register"
+                                aria-selected="false"
+                                >註冊</a>
+                            </li>
+                        </ul>
+    
+                        <!--Tabs content-->
+                        <div class="">
+                            <div class="hidden opacity-100 transition-opacity duration-150 ease-linear data-[twe-tab-active]:block" id="tabs-login" role="tabpanel" aria-labelledby="tabs-login-tab" data-twe-tab-active>
+                                
+                                <ul class="mt-6 space-y-2 md:mt-8">
+                                    <li class="">
+                                        <button
+                                        type="button"
+                                        class="opt flex items-center w-full justify-start pl-3 h-16">
+                                        <img class="mr-3" src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20cx='20'%20cy='18.4004'%20rx='17.5'%20ry='17.5'%20fill='url(%23paint0_linear_8557_64091)'/%3e%3cpath%20d='M26.5171%2025.3519L27.2945%2020.4126H22.4315V17.2087C22.4315%2015.8571%2023.1096%2014.5388%2025.2877%2014.5388H27.5V10.3337C27.5%2010.3337%2025.4931%2010%2023.5753%2010C19.5685%2010%2016.9521%2012.3662%2016.9521%2016.6481V20.4126H12.5V25.3519H16.9521V37.2931C17.8459%2037.4299%2018.7603%2037.5%2019.6918%2037.5C20.6233%2037.5%2021.5377%2037.4299%2022.4315%2037.2931V25.3519H26.5171Z'%20fill='white'/%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_8557_64091'%20x1='20'%20y1='0.900391'%20x2='20'%20y2='35.7966'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%2318ACFE'/%3e%3cstop%20offset='1'%20stop-color='%230163E0'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e" alt="facebook">
+                                        Facebook 登入
+                                    </button>
+                                    </li>
+                                    <li class="">
+                                        <button
+                                        type="button"
+                                        class="opt flex items-center w-full justify-start pl-3 h-16">
+                                        <img class="mr-3" src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M37.5%2020C37.5%2029.66%2029.6687%2037.5%2020%2037.5C10.3312%2037.5%202.5%2029.66%202.5%2020C2.5%2010.3312%2010.3312%202.5%2020%202.5C29.6687%202.5%2037.5%2010.3312%2037.5%2020Z'%20fill='%23283544'/%3e%3cpath%20d='M28.2026%2015.5717C28.1071%2015.6274%2025.8338%2016.8031%2025.8338%2019.4098C25.941%2022.3826%2028.7026%2023.4252%2028.75%2023.4252C28.7026%2023.4809%2028.3331%2024.8454%2027.2383%2026.2757C26.3696%2027.5078%2025.4053%2028.75%2023.941%2028.75C22.5481%2028.75%2022.0481%2027.9288%2020.441%2027.9288C18.715%2027.9288%2018.2267%2028.75%2016.9052%2028.75C15.441%2028.75%2014.4052%2027.4412%2013.4891%2026.2207C12.2989%2024.6232%2011.2872%2022.1164%2011.2515%2019.7093C11.2274%2018.4338%2011.4899%2017.18%2012.156%2016.1151C13.0962%2014.6283%2014.7748%2013.619%2016.6079%2013.5858C18.0124%2013.5416%2019.2624%2014.4843%2020.1195%2014.4843C20.941%2014.4843%2022.4767%2013.5858%2024.2143%2013.5858C24.9643%2013.5865%2026.9643%2013.797%2028.2026%2015.5717ZM20.0008%2013.3311C19.7508%2012.1663%2020.441%2011.0015%2021.0838%2010.2585C21.9053%209.3599%2023.2026%208.75%2024.3214%208.75C24.3928%209.91481%2023.9402%2011.0572%2023.1312%2011.8892C22.4053%2012.7878%2021.1553%2013.4642%2020.0008%2013.3311Z'%20fill='white'/%3e%3c/svg%3e" alt="apple.svg">
+                                        Apple 登入
+                                    </button>
+                                    </li>
+                                    <li class="">
+                                        <button
+                                        type="button"
+                                        class="opt flex items-center w-full justify-start pl-3 h-16">
+                                        <img class="mr-3" src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M37.5022%2020.3883C37.5022%2018.9494%2037.3831%2017.8994%2037.1252%2016.8105H20.3594V23.3049H30.2006C30.0022%2024.9189%2028.9308%2027.3494%2026.5498%2028.9827L26.5164%2029.2001L31.8175%2033.2246L32.1847%2033.2605C35.5577%2030.2077%2037.5022%2025.716%2037.5022%2020.3883Z'%20fill='%234285F4'/%3e%3cpath%20d='M20.3586%2037.5C25.18%2037.5%2029.2275%2035.9443%2032.1839%2033.261L26.549%2028.9831C25.0411%2030.0137%2023.0173%2030.7331%2020.3586%2030.7331C15.6364%2030.7331%2011.6285%2027.6804%2010.1998%2023.4609L9.99043%2023.4784L4.47833%2027.659L4.40625%2027.8554C7.34272%2033.572%2013.3745%2037.5%2020.3586%2037.5Z'%20fill='%2334A853'/%3e%3cpath%20d='M10.1983%2023.4614C9.82135%2022.3726%209.60318%2021.2058%209.60318%2020.0003C9.60318%2018.7947%209.82135%2017.6281%2010.1785%2016.5392L10.1685%2016.3073L4.58732%2012.0596L4.40471%2012.1447C3.19445%2014.5169%202.5%2017.1809%202.5%2020.0003C2.5%2022.8198%203.19445%2025.4836%204.40471%2027.8558L10.1983%2023.4614Z'%20fill='%23FBBC05'/%3e%3cpath%20d='M20.3587%209.26662C23.7118%209.26662%2025.9737%2010.6861%2027.2634%2011.8723L32.3031%207.05C29.208%204.23056%2025.1801%202.5%2020.3587%202.5C13.3745%202.5%207.34273%206.42775%204.40625%2012.1444L10.18%2016.5389C11.6286%2012.3194%2015.6365%209.26662%2020.3587%209.26662Z'%20fill='%23EB4335'/%3e%3c/svg%3e" alt="google.svg">
+                                        Google 登入
+                                    </button>
+                                    </li>
+                                    
+    
+                                </ul>
+                            </div>
+                            <div class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[twe-tab-active]:block" id="tabs-register" role="tabpanel" aria-labelledby="tabs-register-tab">
+                            
+                                <ul class="mt-6 space-y-2 md:mt-8">
+                                    <li class="">
+                                        <button
+                                        type="button"
+                                        class="opt flex items-center w-full justify-start pl-3 h-16">
+                                        <img class="mr-3" src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cellipse%20cx='20'%20cy='18.4004'%20rx='17.5'%20ry='17.5'%20fill='url(%23paint0_linear_8557_64091)'/%3e%3cpath%20d='M26.5171%2025.3519L27.2945%2020.4126H22.4315V17.2087C22.4315%2015.8571%2023.1096%2014.5388%2025.2877%2014.5388H27.5V10.3337C27.5%2010.3337%2025.4931%2010%2023.5753%2010C19.5685%2010%2016.9521%2012.3662%2016.9521%2016.6481V20.4126H12.5V25.3519H16.9521V37.2931C17.8459%2037.4299%2018.7603%2037.5%2019.6918%2037.5C20.6233%2037.5%2021.5377%2037.4299%2022.4315%2037.2931V25.3519H26.5171Z'%20fill='white'/%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_8557_64091'%20x1='20'%20y1='0.900391'%20x2='20'%20y2='35.7966'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%2318ACFE'/%3e%3cstop%20offset='1'%20stop-color='%230163E0'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e" alt="facebook">
+                                        Facebook 註冊
+                                    </button>
+                                    </li>
+                                    <li class="">
+                                        <button
+                                        type="button"
+                                        class="opt flex items-center w-full justify-start pl-3 h-16">
+                                        <img class="mr-3" src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M37.5%2020C37.5%2029.66%2029.6687%2037.5%2020%2037.5C10.3312%2037.5%202.5%2029.66%202.5%2020C2.5%2010.3312%2010.3312%202.5%2020%202.5C29.6687%202.5%2037.5%2010.3312%2037.5%2020Z'%20fill='%23283544'/%3e%3cpath%20d='M28.2026%2015.5717C28.1071%2015.6274%2025.8338%2016.8031%2025.8338%2019.4098C25.941%2022.3826%2028.7026%2023.4252%2028.75%2023.4252C28.7026%2023.4809%2028.3331%2024.8454%2027.2383%2026.2757C26.3696%2027.5078%2025.4053%2028.75%2023.941%2028.75C22.5481%2028.75%2022.0481%2027.9288%2020.441%2027.9288C18.715%2027.9288%2018.2267%2028.75%2016.9052%2028.75C15.441%2028.75%2014.4052%2027.4412%2013.4891%2026.2207C12.2989%2024.6232%2011.2872%2022.1164%2011.2515%2019.7093C11.2274%2018.4338%2011.4899%2017.18%2012.156%2016.1151C13.0962%2014.6283%2014.7748%2013.619%2016.6079%2013.5858C18.0124%2013.5416%2019.2624%2014.4843%2020.1195%2014.4843C20.941%2014.4843%2022.4767%2013.5858%2024.2143%2013.5858C24.9643%2013.5865%2026.9643%2013.797%2028.2026%2015.5717ZM20.0008%2013.3311C19.7508%2012.1663%2020.441%2011.0015%2021.0838%2010.2585C21.9053%209.3599%2023.2026%208.75%2024.3214%208.75C24.3928%209.91481%2023.9402%2011.0572%2023.1312%2011.8892C22.4053%2012.7878%2021.1553%2013.4642%2020.0008%2013.3311Z'%20fill='white'/%3e%3c/svg%3e" alt="apple.svg">
+                                        Apple 註冊
+                                    </button>
+                                    </li>
+                                    <li class="">
+                                        <button
+                                        type="button"
+                                        class="opt flex items-center w-full justify-start pl-3 h-16">
+                                        <img class="mr-3" src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M37.5022%2020.3883C37.5022%2018.9494%2037.3831%2017.8994%2037.1252%2016.8105H20.3594V23.3049H30.2006C30.0022%2024.9189%2028.9308%2027.3494%2026.5498%2028.9827L26.5164%2029.2001L31.8175%2033.2246L32.1847%2033.2605C35.5577%2030.2077%2037.5022%2025.716%2037.5022%2020.3883Z'%20fill='%234285F4'/%3e%3cpath%20d='M20.3586%2037.5C25.18%2037.5%2029.2275%2035.9443%2032.1839%2033.261L26.549%2028.9831C25.0411%2030.0137%2023.0173%2030.7331%2020.3586%2030.7331C15.6364%2030.7331%2011.6285%2027.6804%2010.1998%2023.4609L9.99043%2023.4784L4.47833%2027.659L4.40625%2027.8554C7.34272%2033.572%2013.3745%2037.5%2020.3586%2037.5Z'%20fill='%2334A853'/%3e%3cpath%20d='M10.1983%2023.4614C9.82135%2022.3726%209.60318%2021.2058%209.60318%2020.0003C9.60318%2018.7947%209.82135%2017.6281%2010.1785%2016.5392L10.1685%2016.3073L4.58732%2012.0596L4.40471%2012.1447C3.19445%2014.5169%202.5%2017.1809%202.5%2020.0003C2.5%2022.8198%203.19445%2025.4836%204.40471%2027.8558L10.1983%2023.4614Z'%20fill='%23FBBC05'/%3e%3cpath%20d='M20.3587%209.26662C23.7118%209.26662%2025.9737%2010.6861%2027.2634%2011.8723L32.3031%207.05C29.208%204.23056%2025.1801%202.5%2020.3587%202.5C13.3745%202.5%207.34273%206.42775%204.40625%2012.1444L10.18%2016.5389C11.6286%2012.3194%2015.6365%209.26662%2020.3587%209.26662Z'%20fill='%23EB4335'/%3e%3c/svg%3e" alt="google.svg">
+                                        Google 註冊
+                                    </button>
+                                    </li>
+                                    
+    
+                                </ul>
+                            </div>
+                        </div>
+                        
+    
+    
+                    </div>
+    
+                </section>
+
+            </div>
+        </div>
+    </section>
+    
+
+
+
+    
+    <footer class="bg-neutral-100">
+    <div class="container">
+        <nav class="flex flex-col pt-8 px-3 pb-6 gap-2
+                    md:flex-row md:pt-16 md:pb-6 md:px-0">
+            <h1 class="flex mr-auto">
+                <a href="./index.html" class="bg-[url('/assets/images/logo.svg')] w-[129px] h-[46px] indent-[101%] overflow-hidden whitespace-nowrap block">URBNSTEP</a>
+            </h1>
+
+            <ul class="flex flex-col gap-1
+                        md:flex-row md:gap-10">
+                <li>
+                    <button class="btn md:px-0" onclick="location.href='./product-list.html'">
+                        商品列表
+                    </button>
+                </li>
+                <li>
+                    <button class="btn md:px-0" onclick="location.href='./story.html'">
+                        品牌故事
+                    </button>
+                </li>
+            </ul>
+
+        </nav>
+        <div class="text-neutral-600 border-t border-neutral-300 pt-8 pb-8 text-p-sm text-center space-y-1
+                    md:pb-16">
+            <p>Copyright ©2025 URBNSTYLE</p>
+            <p>All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+    <script type="text/javascript" src="../node_modules/tw-elements/js/tw-elements.umd.min.js"></script>
+</body>
+</html>
