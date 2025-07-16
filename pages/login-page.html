@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <%- include('./layout/header'); -%>
+
+    <section class="">
+        <div class="container">
+            <div class="md:grid md:grid-cols-12 md:gap-6 py-0 md:py-16">
+                <section class="bg-[url('/assets/images/index/HeroSection-sm.png')] bg-no-repeat h-60 bg-cover bg-[left_50%_top_46.3%] col-span-5 md:rounded-md md:h-full">
+
+                    <div class="p-6 md:p-10">
+                        <h1 class="text-h2 font-['Montserrat'] text-neutral-0 md:text-d2 pd:font-['Noto_Sans_TC'] md:pt-[31px]">URBNSTEP</h1>
+                        <h3 class="text-h6 font-['Montserrat'] text-neutral-500 pt-[9px] md:text-h4 md:pt-[15px] md:text-right">Your Step, Your Statement</h3>
+
+                    </div>
+            
+                    
+                </section>
+    
+    
+                <section class="md:col-span-7">
+                    <div class="px-3 py-8 md:bg-neutral-100 rounded-radius-md md:px-20 md:py-[120px]">
+    
+                        <h4 class="text-h4 font-['Montserrat'] text-center mb-6 md:mb-8 md:font-['Noto_Sans_TC'] md:text-h3">歡迎！</h4>
+    
+                        <!--Tabs navigation refer form twe-->
+                        <ul class="flex flex-row" role="tablist" data-twe-nav-ref>
+                            <li role="presentation" class=" w-full">
+                                <a href="#tabs-login" class="text-h6 font-['Montserrat'] text-center block border-b-2 border-t-0 border-x-0 border-neutral-300 py-3 text-neutral-600 hover:isolate hover:border-transparent focus:isolate focus:border-transparent data-[twe-nav-active]:border-neutral-900 data-[twe-nav-active]:text-neutral-900 dark:text-white/50 dark:data-[twe-nav-active]:text-neutral-900" data-twe-toggle="pill" data-twe-target="#tabs-login" data-twe-nav-active role="tab" aria-controls="tabs-login"
+                                aria-selected="true" >登入</a>
+                            </li>
+                            <li role="presentation" class=" w-full">
+                                <a
+                                href="#tabs-register"
+                                class="text-h6 font-['Montserrat'] text-center block border-b-2 border-t-0 border-x-0 border-neutral-300 py-3 text-neutral-600 hover:isolate hover:border-transparent focus:isolate focus:border-transparent data-[twe-nav-active]:border-neutral-900 data-[twe-nav-active]:text-neutral-900 dark:text-white/50 dark:data-[twe-nav-active]:text-neutral-900"
+                                data-twe-toggle="pill"
+                                data-twe-target="#tabs-register"
+                                role="tab"
+                                aria-controls="tabs-register"
+                                aria-selected="false"
+                                >註冊</a>
+                            </li>
+                        </ul>
+    
+                        <!--Tabs content-->
+                        <div class="">
+                            <div class="hidden opacity-100 transition-opacity duration-150 ease-linear data-[twe-tab-active]:block" id="tabs-login" role="tabpanel" aria-labelledby="tabs-login-tab" data-twe-tab-active>
+                                
+                                <ul class="mt-6 space-y-2 md:mt-8">
+                                    <li class="">
+                                        <button
+                                        type="button"
+                                        class="opt flex items-center w-full justify-start pl-3 h-16">
+                                        <img class="mr-3" src="../assets/images/index/facebook.svg" alt="facebook">
+                                        Facebook 登入
+                                    </button>
+                                    </li>
+                                    <li class="">
+                                        <button
+                                        type="button"
+                                        class="opt flex items-center w-full justify-start pl-3 h-16">
+                                        <img class="mr-3" src="../assets/images/index/apple.svg" alt="apple.svg">
+                                        Apple 登入
+                                    </button>
+                                    </li>
+                                    <li class="">
+                                        <button
+                                        type="button"
+                                        class="opt flex items-center w-full justify-start pl-3 h-16">
+                                        <img class="mr-3" src="../assets/images/index/google.svg" alt="google.svg">
+                                        Google 登入
+                                    </button>
+                                    </li>
+                                    
+    
+                                </ul>
+                            </div>
+                            <div class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[twe-tab-active]:block" id="tabs-register" role="tabpanel" aria-labelledby="tabs-register-tab">
+                            
+                                <ul class="mt-6 space-y-2 md:mt-8">
+                                    <li class="">
+                                        <button
+                                        type="button"
+                                        class="opt flex items-center w-full justify-start pl-3 h-16">
+                                        <img class="mr-3" src="../assets/images/index/facebook.svg" alt="facebook">
+                                        Facebook 註冊
+                                    </button>
+                                    </li>
+                                    <li class="">
+                                        <button
+                                        type="button"
+                                        class="opt flex items-center w-full justify-start pl-3 h-16">
+                                        <img class="mr-3" src="../assets/images/index/apple.svg" alt="apple.svg">
+                                        Apple 註冊
+                                    </button>
+                                    </li>
+                                    <li class="">
+                                        <button
+                                        type="button"
+                                        class="opt flex items-center w-full justify-start pl-3 h-16">
+                                        <img class="mr-3" src="../assets/images/index/google.svg" alt="google.svg">
+                                        Google 註冊
+                                    </button>
+                                    </li>
+                                    
+    
+                                </ul>
+                            </div>
+                        </div>
+                        
+    
+    
+                    </div>
+    
+                </section>
+
+            </div>
+        </div>
+    </section>
+    
+
+
+
+    
+    <%- include('./layout/footer'); -%>
+
+
+
+    <script type="module" src="../main.js"></script>
+    <script type="text/javascript" src="../node_modules/tw-elements/js/tw-elements.umd.min.js"></script>
+</body>
+</html>

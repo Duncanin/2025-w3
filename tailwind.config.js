@@ -4,7 +4,6 @@ const { darkMode } = require('./tailwind.config');
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     content: [
-        './index.html',
         './main.js',
         './pages/**/*.html',
         './layout/**/*.ejs',

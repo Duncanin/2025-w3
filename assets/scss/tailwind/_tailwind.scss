@@ -119,13 +119,13 @@
     
     .iconbtn-48 {
         @apply w-12 h-12 flex items-center justify-center rounded-radius-xs;
-        @apply hover:text-primary-400;
+        @apply hover:text-primary-400 hover:bg-primary-100;
 
         @apply disabled:opacity-40 disabled:pointer-events-none;
     }
     .iconbtn-40 {
         @apply w-10 h-10 flex items-center justify-center rounded-radius-xs;
-        @apply hover:text-primary-400;
+        @apply hover:text-primary-400 hover:bg-primary-100;
 
         @apply disabled:opacity-40 disabled:pointer-events-none;
     }
@@ -140,7 +140,7 @@
         @apply text-l-md;
 
         @apply hover:border-neutral-600;
-        @apply focus:border-neutral-600;
+        @apply focus:border-neutral-900;
         @apply disabled:opacity-40 disabled:pointer-events-none;
     }
 
