@@ -15,6 +15,7 @@ module.exports = {
     theme: {
         screens: {
             md: '792px',
+            lg: '992px',
         },
         // mobile first
         container: {
