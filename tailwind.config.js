@@ -9,13 +9,14 @@ module.exports = {
         './layout/**/*.ejs',
         './assets/**/*.{html,js,scss}',
         // 這裡是 tw-elements 的路徑
-        './node_modules/tw-elements/dist/js/**/*.js',
+        './node_modules/tw-elements/js/**/*.js',
     ],
     // darkMode: 'media', // 啟動前綴 dark模式
     theme: {
         screens: {
             md: '792px',
             lg: '992px',
+            xl: '1164px',
         },
         // mobile first
         container: {
